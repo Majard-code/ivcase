@@ -1,0 +1,32 @@
+.req-comment {
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    margin-top: 35px;
+}
+.req-comment__circle {
+    grid-row: 1 / 4;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    background-color: white;
+    border: 1px solid #c5cdd3;
+    border-radius: 50%;
+}
+.req-comment__name {
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #525460;
+}
+.req-comment__date {
+    margin-bottom: 20px;
+    font-size: 12px;
+    color: #63677c;
+}
+.req-comment__text {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    background-color: #e3e9f4;
+    border-radius: 5px;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.2);
+}

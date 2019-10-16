@@ -1,0 +1,13 @@
+.main {
+    position: relative;
+}
+.main__save-btn {
+    cursor: pointer;
+    width: 150px;
+    line-height: 34px;
+    text-align: center;
+    font-size: 14px;
+    color: white;
+    background-color: #008cf0;
+    border-radius: 17px;
+}

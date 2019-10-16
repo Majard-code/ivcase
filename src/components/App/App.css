@@ -1,0 +1,5 @@
+.app {
+  display: grid;
+  grid-template-columns: 95px 1fr;
+  font-family: 'Roboto', sans-serif;
+}
